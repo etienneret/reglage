@@ -8,7 +8,7 @@ var hook_controller = require('../controllers/hookController')
 
 // /price-estimator.herokuapp.com/api/v1/estimate_price (for local tests)
 
-router.post('/api/v1/reglage',hook_controller.getReglageInformation)
+router.post('adopteunreglage.herokuapp.com/api/v1/reglage',hook_controller.getReglageInformation)
 
 /********** module.exports ***********/
 
