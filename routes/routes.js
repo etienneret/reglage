@@ -5,10 +5,11 @@ var hook_controller = require('../controllers/hookController')
 
  
 /**************** lead_created *****************/
+///:constructeur/:culture/:poids/:ecartement/:vitesse
 
-// /price-estimator.herokuapp.com/api/v1/estimate_price (for local tests)
+// /price-estimator.herokuapp.com/api/v1/estimate_price (for local tests).  
+router.get('/api/v1/reglage',hook_controller.getReglageInformation)
 
-router.post('adopteunreglage.herokuapp.com/api/v1/reglage',hook_controller.getReglageInformation)
 
 /********** module.exports ***********/
 
